@@ -1,0 +1,1062 @@
+# EESchema Netlist Version 1.1 created  Mi 28 Dez 2011 02:30:20 CET
+(
+ ( /4EFA5A48 $noname  P46 CONN_1 {Lib=CONN_1}
+  (    1 /-9V )
+ )
+ ( /4EFA5A46 $noname  P44 CONN_1 {Lib=CONN_1}
+  (    1 /-9V )
+ )
+ ( /4EFA5A42 $noname  P43 CONN_1 {Lib=CONN_1}
+  (    1 /-9V )
+ )
+ ( /4EFA5A41 $noname  P42 CONN_1 {Lib=CONN_1}
+  (    1 /-9V )
+ )
+ ( /4EFA5A3F $noname  P41 CONN_1 {Lib=CONN_1}
+  (    1 /-9V )
+ )
+ ( /4EFA5A3C $noname  P40 CONN_1 {Lib=CONN_1}
+  (    1 /-9V )
+ )
+ ( /4EFA5A35 $noname  P36 CONN_1 {Lib=CONN_1}
+  (    1 /+9V )
+ )
+ ( /4EFA5A34 $noname  P37 CONN_1 {Lib=CONN_1}
+  (    1 /+9V )
+ )
+ ( /4EFA5A33 $noname  P38 CONN_1 {Lib=CONN_1}
+  (    1 /+9V )
+ )
+ ( /4EFA5A2A $noname  P31 CONN_1 {Lib=CONN_1}
+  (    1 /vcc )
+ )
+ ( /4EFA5A27 $noname  P28 CONN_1 {Lib=CONN_1}
+  (    1 /vcc )
+ )
+ ( /4EFA5A26 $noname  P27 CONN_1 {Lib=CONN_1}
+  (    1 /vcc )
+ )
+ ( /4EFA5A23 $noname  P25 CONN_1 {Lib=CONN_1}
+  (    1 /vcc )
+ )
+ ( /4EFA5A21 $noname  P24 CONN_1 {Lib=CONN_1}
+  (    1 /vcc )
+ )
+ ( /4EFA5A1A $noname  P23 CONN_1 {Lib=CONN_1}
+  (    1 /gnd )
+ )
+ ( /4EFA5A19 $noname  P22 CONN_1 {Lib=CONN_1}
+  (    1 /gnd )
+ )
+ ( /4EFA5A15 $noname  P21 CONN_1 {Lib=CONN_1}
+  (    1 /gnd )
+ )
+ ( /4EFA5A14 $noname  P20 CONN_1 {Lib=CONN_1}
+  (    1 /gnd )
+ )
+ ( /4EFA5A13 $noname  P19 CONN_1 {Lib=CONN_1}
+  (    1 /gnd )
+ )
+ ( /4EFA5A12 $noname  P18 CONN_1 {Lib=CONN_1}
+  (    1 /gnd )
+ )
+ ( /4EFA5A10 $noname  P17 CONN_1 {Lib=CONN_1}
+  (    1 /gnd )
+ )
+ ( /4EFA5A00 $noname  P16 CONN_1 {Lib=CONN_1}
+  (    1 /gnd )
+ )
+ ( /4EFA1002 $noname  U1 TLC274 {Lib=TLC274}
+  (    1 /cv_raw )
+  (    2 N-000019 )
+  (    3 /gnd )
+  (    4 /+9V )
+  (    5 N-000077 )
+  (    6 /portamento )
+  (    7 /portamento )
+  (    8 /modulation )
+  (    9 /modulation )
+  (   10 N-000021 )
+  (   11 /-9V )
+  (   12 N-000009 )
+  (   13 /pitch_bend )
+  (   14 /pitch_bend )
+ )
+ ( /4EFA0FE0 $noname  U10 TL082 {Lib=TL082}
+  (    1 N-000033 )
+  (    2 /gnd )
+  (    3 N-000032 )
+  (    4 /-9V )
+  (    5 /gnd )
+  (    6 N-000029 )
+  (    7 /tri_wave )
+  (    8 /+9V )
+ )
+ ( /4EFA0FA5 $noname  U11 TL082 {Lib=TL082}
+  (    1 N-000075 )
+  (    2 N-000004 )
+  (    3 N-000008 )
+  (    4 /-9V )
+  (    5 N-000018 )
+  (    6 N-000078 )
+  (    7 /CV_OUT )
+  (    8 /+9V )
+ )
+ ( /4EFA04E5 $noname  C17 1uF {Lib=C}
+  (    1 N-000077 )
+  (    2 /gnd )
+ )
+ ( /4EFA03D5 $noname  R12 1k {Lib=R}
+  (    1 N-000025 )
+  (    2 N-000067 )
+ )
+ ( /4EFA03D2 $noname  R11 470 {Lib=R}
+  (    1 N-000067 )
+  (    2 N-000028 )
+ )
+ ( /4EFA03A7 $noname  R10 470 {Lib=R}
+  (    1 N-000028 )
+  (    2 /cv_raw )
+ )
+ ( /4EFA0367 $noname  U7 4051 {Lib=4051}
+  (    1 ? )
+  (    2 ? )
+  (    3 N-000077 )
+  (    4 N-000025 )
+  (    5 N-000067 )
+  (    6 /gnd )
+  (    7 /gnd )
+  (    8 /gnd )
+  (    9 /muxadr_2 )
+  (   10 /muxadr_1 )
+  (   11 /porta_pwm )
+  (   12 N-000028 )
+  (   13 /cv_raw )
+  (   14 /cv_raw )
+  (   15 ? )
+  (   16 /vcc )
+ )
+ ( /4EFA0237 $noname  C7 100n {Lib=C}
+  (    1 N-000021 )
+  (    2 /gnd )
+ )
+ ( /4EFA0229 $noname  R4 47k {Lib=R}
+  (    1 N-000021 )
+  (    2 N-000022 )
+ )
+ ( /4EF9FFA0 $noname  U3 4051 {Lib=4051}
+  (    1 ? )
+  (    2 ? )
+  (    3 N-000022 )
+  (    4 ? )
+  (    5 ? )
+  (    6 /gnd )
+  (    7 /-9V )
+  (    8 /gnd )
+  (    9 /gnd )
+  (   10 /gnd )
+  (   11 /modul_pwm )
+  (   12 ? )
+  (   13 /gnd )
+  (   14 N-000041 )
+  (   15 ? )
+  (   16 /vcc )
+ )
+ ( /4EF9FDC5 $noname  RV_MODUL_AMP1 10k {Lib=POT}
+  (    1 /tri_wave )
+  (    2 N-000041 )
+  (    3 /gnd )
+ )
+ ( /4EF9FAB4 $noname  C4 100n {Lib=C}
+  (    1 /tri_wave )
+  (    2 N-000029 )
+ )
+ ( /4EF9FA6B $noname  R3 10k {Lib=R}
+  (    1 N-000030 )
+  (    2 N-000029 )
+ )
+ ( /4EF9FA3F $noname  RV_TRIG_FREQ1 10k {Lib=POT}
+  (    1 N-000033 )
+  (    2 N-000030 )
+  (    3 /gnd )
+ )
+ ( /4EF9F9E1 $noname  R1 4k7 {Lib=R}
+  (    1 N-000032 )
+  (    2 /tri_wave )
+ )
+ ( /4EF9F9C6 $noname  R2 10k {Lib=R}
+  (    1 N-000032 )
+  (    2 N-000033 )
+ )
+ ( /4EF9F355 $noname  C14 100n {Lib=C}
+  (    1 N-000009 )
+  (    2 /gnd )
+ )
+ ( /4EF9F350 $noname  R13 47k {Lib=R}
+  (    1 N-000010 )
+  (    2 N-000009 )
+ )
+ ( /4EF9F249 $noname  RV_PBEND1 10k {Lib=POT}
+  (    1 /pbend_pwm )
+  (    2 N-000010 )
+  (    3 /gnd )
+ )
+ ( /4EF9F1E6 $noname  C18 100n {Lib=C}
+  (    1 /bias )
+  (    2 /gnd )
+ )
+ ( /4EF9F068 $noname  RV_BIAS1 10k {Lib=POT}
+  (    1 /+9V )
+  (    2 /bias )
+  (    3 /-9V )
+ )
+ ( /4EF9F020 $noname  R20 10k {Lib=R}
+  (    1 N-000004 )
+  (    2 N-000075 )
+ )
+ ( /4EF9F007 $noname  R17 10k {Lib=R}
+  (    1 /bias )
+  (    2 N-000004 )
+ )
+ ( /4EF9EFFA $noname  R16 10k {Lib=R}
+  (    1 /modulation )
+  (    2 N-000004 )
+ )
+ ( /4EF9EFF5 $noname  R15 10k {Lib=R}
+  (    1 /pitch_bend )
+  (    2 N-000004 )
+ )
+ ( /4EF9EFEF $noname  R14 10k {Lib=R}
+  (    1 /portamento )
+  (    2 N-000004 )
+ )
+ ( /4EF9EFE8 $noname  R18 2k2 {Lib=R}
+  (    1 /gnd )
+  (    2 N-000008 )
+ )
+ ( /4EF9EFB1 $noname  P15 CONN_1 {Lib=CONN_1}
+  (    1 /CV_OUT )
+ )
+ ( /4EF9EF8C $noname  R23 4k7 {Lib=R}
+  (    1 /gnd )
+  (    2 N-000018 )
+ )
+ ( /4EF9EF64 $noname  R22 10k {Lib=R}
+  (    1 N-000075 )
+  (    2 N-000078 )
+ )
+ ( /4EF9EEC4 $noname  R24 10k {Lib=R}
+  (    1 /CV_OUT )
+  (    2 N-000078 )
+ )
+ ( /4EF9EC91 $noname  C21 270p {Lib=C}
+  (    1 /cv_raw )
+  (    2 N-000019 )
+ )
+ ( /4EF9EC7C $noname  R25 6k8 {Lib=R}
+  (    1 /cv_raw )
+  (    2 N-000019 )
+ )
+ ( /4EF9EAB4 $noname  P13 CONN_1 {Lib=CONN_1}
+  (    1 /gate_mode )
+ )
+ ( /4EF9E992 $noname  C20 2u2 {Lib=CP1}
+  (    1 N-000014 )
+  (    2 /gnd )
+ )
+ ( /4EF9E952 $noname  RV_TUNE1 5k {Lib=POT}
+  (    1 N-000014 )
+  (    2 /vcc )
+  (    3 /vcc )
+ )
+ ( /4EF9E8DE $noname  R21 2k2 {Lib=R}
+  (    1 N-000014 )
+  (    2 N-000063 )
+ )
+ ( /4EF9E839 $noname  R19 2k7 {Lib=R}
+  (    1 N-000015 )
+  (    2 /gnd )
+ )
+ ( /4EF9E7E1 $noname  C19 82p {Lib=C}
+  (    1 N-000064 )
+  (    2 /-9V )
+ )
+ ( /4EF9E74E $noname  U9 DAC0808 {Lib=DAC0808}
+  (    1 ? )
+  (    2 /gnd )
+  (    3 /-9V )
+  (    4 N-000019 )
+  (    5 /sck )
+  (    6 /miso )
+  (    7 /mosi )
+  (    8 /pd5 )
+  (    9 /pd4 )
+  (   10 /pd3 )
+  (   11 /pd2 )
+  (   12 /gnd )
+  (   13 /vcc )
+  (   14 N-000063 )
+  (   15 N-000015 )
+  (   16 N-000064 )
+ )
+ ( /4EF9E215 $noname  snthgnd1 CONN_1 {Lib=CONN_1}
+  (    1 /gnd )
+ )
+ ( /4EF9E207 $noname  snthpwr+1 CONN_1 {Lib=CONN_1}
+  (    1 /+9V )
+ )
+ ( /4EF9E1FE $noname  snthpwr-1 CONN_1 {Lib=CONN_1}
+  (    1 /-9V )
+ )
+ ( /4EF9E178 $noname  C13 100uF {Lib=CP1}
+  (    1 /gnd )
+  (    2 /-9V )
+ )
+ ( /4EF9E175 $noname  C12 100uF {Lib=CP1}
+  (    1 /+9V )
+  (    2 /gnd )
+ )
+ ( /4EF9E172 $noname  C11 100uF {Lib=CP1}
+  (    1 /vcc )
+  (    2 /gnd )
+ )
+ ( /4EF9E14E $noname  C8 100n {Lib=C}
+  (    1 /vcc )
+  (    2 /gnd )
+ )
+ ( /4EF9E14C $noname  C9 100n {Lib=C}
+  (    1 /+9V )
+  (    2 /gnd )
+ )
+ ( /4EF9E147 $noname  C10 100n {Lib=C}
+  (    1 /-9V )
+  (    2 /gnd )
+ )
+ ( /4EF9E0E9 $noname  U6 7909 {Lib=7909}
+  (   VI N-000066 )
+  (   VO /-9V )
+  (  GND /gnd )
+ )
+ ( /4EF9DF9D $noname  U5 7809 {Lib=7809}
+  (   VI /+12V )
+  (   VO /+9V )
+  (  GND /gnd )
+ )
+ ( /4EF9DF85 $noname  U4 7805 {Lib=7805}
+  (   VI /+12V )
+  (   VO /vcc )
+  (  GND /gnd )
+ )
+ ( /4EF9DF67 $noname  C6 100n {Lib=C}
+  (    1 N-000066 )
+  (    2 /gnd )
+ )
+ ( /4EF9DF36 $noname  C5 100uF {Lib=CP1}
+  (    1 /gnd )
+  (    2 N-000066 )
+ )
+ ( /4EF9DEFB $noname  C3 100n {Lib=C}
+  (    1 /+12V )
+  (    2 /gnd )
+ )
+ ( /4EF9DE9B $noname  C1 100uF {Lib=CP1}
+  (    1 N-000069 )
+  (    2 N-000070 )
+ )
+ ( /4EF9DE8C $noname  U2 LT1054 {Lib=LT1054}
+  (    1 ? )
+  (    2 N-000069 )
+  (    3 /gnd )
+  (    4 N-000070 )
+  (    5 N-000066 )
+  (    6 ? )
+  (    7 ? )
+  (    8 /+12V )
+ )
+ ( /4EF9DA9E $noname  C2 100uF {Lib=CP1}
+  (    1 /+12V )
+  (    2 /gnd )
+ )
+ ( /4EF9DA52 $noname  P2 CONN_1 {Lib=CONN_1}
+  (    1 /gnd )
+ )
+ ( /4EF510A6 $noname  P14 CONN_1 {Lib=CONN_1}
+  (    1 /gate )
+ )
+ ( /4EF51081 $noname  R9 10k {Lib=R}
+  (    1 N-000050 )
+  (    2 /gate )
+ )
+ ( /4EF503F9 $noname  P1 CONN_1 {Lib=CONN_1}
+  (    1 /+12V )
+ )
+ ( /4E8ADCA6 DIL20  IC1 ATTINY2313-P {Lib=ATTINY2313-P}
+  (    1 /rst )
+  (    2 /rx )
+  (    3 /gate_mode )
+  (    4 /quartz2 )
+  (    5 /quartz1 )
+  (    6 /pd2 )
+  (    7 /pd3 )
+  (    8 /pd4 )
+  (    9 /pd5 )
+  (   10 /gnd )
+  (   11 N-000050 )
+  (   12 /muxadr_1 )
+  (   13 /muxadr_2 )
+  (   14 /modul_pwm )
+  (   15 /pbend_pwm )
+  (   16 /porta_pwm )
+  (   17 /mosi )
+  (   18 /miso )
+  (   19 /sck )
+  (   20 /vcc )
+ )
+ ( /4E8D67BB $noname  OPT1 6N137 {Lib=6N137}
+  (    1 ? )
+  (    2 /a )
+  (    3 /k )
+  (    4 ? )
+  (    5 /gnd )
+  (    6 /rx )
+  (    7 ? )
+  (    8 /vcc )
+ )
+ ( /4E8C22BB $noname  R8 820 {Lib=R}
+  (    1 /vcc )
+  (    2 /rx )
+ )
+ ( /4E8AE401 $noname  D1 DIODE {Lib=DIODE}
+  (    1 /k )
+  (    2 /a )
+ )
+ ( /4E8AE413 $noname  R5 220 {Lib=R}
+  (    1 N-000053 )
+  (    2 /a )
+ )
+ ( /4E8AE27A $noname  R7 220 {Lib=R}
+  (    1 /rx )
+  (    2 N-000054 )
+ )
+ ( /4E8AE253 $noname  R6 220 {Lib=R}
+  (    1 /vcc )
+  (    2 N-000055 )
+ )
+ ( /4E8AE1F1 $noname  P4 MIDI_THRU {Lib=CONN_2}
+  (    1 N-000054 )
+  (    2 N-000055 )
+ )
+ ( /4E8AE144 $noname  P3 MIDI_IN {Lib=CONN_2}
+  (    1 /k )
+  (    2 N-000053 )
+ )
+ ( /4E8ADDD2 $noname  C16 22n {Lib=C}
+  (    1 /gnd )
+  (    2 /quartz2 )
+ )
+ ( /4E8ADDBE $noname  C15 22n {Lib=C}
+  (    1 /gnd )
+  (    2 /quartz1 )
+ )
+ ( /4E8ADD93 $noname  X1 CRYSTAL {Lib=CRYSTAL}
+  (    1 /quartz1 )
+  (    2 /quartz2 )
+ )
+ ( /4E8ADCE3 AVR-ISP-6  J1 AVR-ISP-6 {Lib=AVR-ISP-6}
+  (    1 /miso )
+  (    2 /vcc )
+  (    3 /sck )
+  (    4 /mosi )
+  (    5 /rst )
+  (    6 /gnd )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component R25
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C20
+ CP*
+ SM*
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ CP*
+ SM*
+$endlist
+$component C12
+ CP*
+ SM*
+$endlist
+$component C11
+ CP*
+ SM*
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/+9V" "+9V"
+ U1 4
+ U11 8
+ U11 8
+ U1 4
+ C9 1
+ P36 1
+ P37 1
+ P38 1
+ C12 1
+ U10 8
+ U5 VO
+ snthpwr+1 1
+ RV_BIAS1 1
+ U10 8
+ U1 4
+ U1 4
+Net 2 "/-9V" "-9V"
+ U1 11
+ snthpwr-1 1
+ U9 3
+ U10 4
+ U3 7
+ P42 1
+ P43 1
+ P44 1
+ P46 1
+ U6 VO
+ U10 4
+ U1 11
+ C10 1
+ P41 1
+ U1 11
+ U11 4
+ U1 11
+ U11 4
+ C19 2
+ P40 1
+ RV_BIAS1 3
+ C13 2
+Net 3 "/modulation" "modulation"
+ U1 9
+ U1 8
+ R16 1
+Net 4 "" ""
+ R14 2
+ R15 2
+ R16 2
+ U11 2
+ R17 2
+ R20 1
+Net 5 "/pitch_bend" "pitch_bend"
+ U1 14
+ U1 13
+ R15 1
+Net 6 "/portamento" "portamento"
+ U1 6
+ R14 1
+ U1 7
+Net 7 "/gnd" "gnd"
+ C11 2
+ C3 2
+ U10 5
+ C12 2
+ C8 2
+ C13 1
+ C9 2
+ C15 1
+ C16 1
+ U5 GND
+ U10 2
+ C10 2
+ U6 GND
+ J1 6
+ U9 12
+ C17 2
+ snthgnd1 1
+ C2 2
+ P2 1
+ U4 GND
+ C6 2
+ C5 1
+ U2 3
+ U1 3
+ P16 1
+ P17 1
+ P18 1
+ P19 1
+ P20 1
+ P21 1
+ P23 1
+ P22 1
+ U7 6
+ U7 7
+ U7 8
+ RV_TRIG_FREQ1 3
+ RV_MODUL_AMP1 3
+ U3 10
+ U3 6
+ U3 8
+ U3 9
+ U3 13
+ U9 2
+ R18 1
+ C14 2
+ RV_PBEND1 3
+ C18 2
+ C20 2
+ R19 2
+ R23 1
+ C7 2
+ IC1 10
+ OPT1 5
+Net 8 "" ""
+ U11 3
+ R18 2
+Net 9 "" ""
+ R13 2
+ U1 12
+ C14 1
+Net 10 "" ""
+ R13 1
+ RV_PBEND1 2
+Net 11 "/pbend_pwm" "pbend_pwm"
+ IC1 15
+ RV_PBEND1 1
+Net 12 "/bias" "bias"
+ R17 1
+ C18 1
+ RV_BIAS1 2
+Net 13 "/gate_mode" "gate_mode"
+ P13 1
+ IC1 3
+Net 14 "" ""
+ RV_TUNE1 1
+ C20 1
+ R21 1
+Net 15 "" ""
+ R19 1
+ U9 15
+Net 17 "/CV_OUT" "CV_OUT"
+ P15 1
+ R24 1
+ U11 7
+Net 18 "" ""
+ R23 2
+ U11 5
+Net 19 "" ""
+ U1 2
+ C21 2
+ R25 2
+ U9 4
+Net 21 "" ""
+ U1 10
+ C7 1
+ R4 1
+Net 22 "" ""
+ R4 2
+ U3 3
+Net 25 "" ""
+ U7 4
+ R12 1
+Net 26 "/muxadr_2" "muxadr_2"
+ IC1 13
+ U7 9
+Net 27 "/muxadr_1" "muxadr_1"
+ U7 10
+ IC1 12
+Net 28 "" ""
+ R10 1
+ U7 12
+ R11 2
+Net 29 "" ""
+ R3 2
+ U10 6
+ C4 2
+Net 30 "" ""
+ R3 1
+ RV_TRIG_FREQ1 2
+Net 31 "/tri_wave" "tri_wave"
+ R1 2
+ RV_MODUL_AMP1 1
+ C4 1
+ U10 7
+Net 32 "" ""
+ R2 1
+ U10 3
+ R1 1
+Net 33 "" ""
+ R2 2
+ U10 1
+ RV_TRIG_FREQ1 1
+Net 38 "/modul_pwm" "modul_pwm"
+ IC1 14
+ U3 11
+Net 41 "" ""
+ U3 14
+ RV_MODUL_AMP1 2
+Net 44 "/porta_pwm" "porta_pwm"
+ U7 11
+ IC1 16
+Net 46 "/k" "k"
+ OPT1 3
+ D1 1
+ P3 1
+Net 47 "/rx" "rx"
+ R8 2
+ IC1 2
+ OPT1 6
+ R7 1
+Net 48 "/quartz1" "quartz1"
+ X1 1
+ IC1 5
+ C15 2
+Net 49 "/pd2" "pd2"
+ U9 11
+ IC1 6
+Net 50 "" ""
+ R9 1
+ IC1 11
+Net 51 "/rst" "rst"
+ J1 5
+ IC1 1
+Net 52 "/vcc" "vcc"
+ R8 1
+ U4 VO
+ P24 1
+ RV_TUNE1 2
+ RV_TUNE1 3
+ U7 16
+ U3 16
+ OPT1 8
+ IC1 20
+ J1 2
+ R6 1
+ C11 1
+ C8 1
+ U9 13
+ P31 1
+ P25 1
+ P28 1
+ P27 1
+Net 53 "" ""
+ P3 2
+ R5 1
+Net 54 "" ""
+ R7 2
+ P4 1
+Net 55 "" ""
+ R6 2
+ P4 2
+Net 56 "/quartz2" "quartz2"
+ IC1 4
+ X1 2
+ C16 2
+Net 57 "/sck" "sck"
+ IC1 19
+ U9 5
+ J1 3
+Net 58 "/miso" "miso"
+ IC1 18
+ J1 1
+ U9 6
+Net 59 "/mosi" "mosi"
+ U9 7
+ IC1 17
+ J1 4
+Net 60 "/pd5" "pd5"
+ IC1 9
+ U9 8
+Net 61 "/pd4" "pd4"
+ IC1 8
+ U9 9
+Net 62 "/pd3" "pd3"
+ U9 10
+ IC1 7
+Net 63 "" ""
+ R21 2
+ U9 14
+Net 64 "" ""
+ U9 16
+ C19 1
+Net 65 "/gate" "gate"
+ P14 1
+ R9 2
+Net 66 "" ""
+ U6 VI
+ C6 1
+ C5 2
+ U2 5
+Net 67 "" ""
+ R11 1
+ U7 5
+ R12 2
+Net 69 "" ""
+ U2 2
+ C1 1
+Net 70 "" ""
+ C1 2
+ U2 4
+Net 73 "/+12V" "+12V"
+ U4 VI
+ C3 1
+ C2 1
+ P1 1
+ U2 8
+ U5 VI
+Net 74 "/a" "a"
+ D1 2
+ OPT1 2
+ R5 2
+Net 75 "" ""
+ U11 1
+ R22 1
+ R20 2
+Net 76 "/cv_raw" "cv_raw"
+ U7 13
+ C21 1
+ R25 1
+ R10 2
+ U7 14
+ U1 1
+Net 77 "" ""
+ U1 5
+ U7 3
+ C17 1
+Net 78 "" ""
+ R24 2
+ U11 6
+ R22 2
+}
+#End
