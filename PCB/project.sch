@@ -1,42 +1,13 @@
-EESchema Schematic File Version 2  date Mi 28 Dez 2011 02:52:30 CET
+EESchema Schematic File Version 2  date So 27 Jul 2014 13:20:00 CEST
 LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:micha_custom
 LIBS:project-cache
-EELAYER 24  0
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
+encoding utf-8
 Sheet 1 1
 Title ""
-Date "28 dec 2011"
+Date "27 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -44,14 +15,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 10750 6700 0    60   ~ 0
--9V
-Text Label 10300 6700 0    60   ~ 0
-+9V
-Text Label 9800 6700 0    60   ~ 0
-vcc
-Text Label 9300 6700 0    60   ~ 0
-gnd
+Connection ~ 5150 1450
+Wire Wire Line
+	5150 1600 5150 1300
+Wire Wire Line
+	8450 2600 8650 2600
+Wire Wire Line
+	8200 2350 8400 2350
+Wire Wire Line
+	8650 4950 8650 4650
+Connection ~ 8000 4600
+Wire Wire Line
+	8000 4800 8000 4550
+Wire Wire Line
+	3800 4800 4150 4800
+Wire Wire Line
+	3800 5000 4150 5000
+Wire Wire Line
+	4800 4900 4450 4900
 Connection ~ 10200 6400
 Connection ~ 10200 6200
 Connection ~ 10200 6000
@@ -156,9 +137,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 1050 6100 1050
 Wire Wire Line
-	5150 1300 5150 1450
-Wire Wire Line
-	5150 650  5150 800 
+	5150 800  5150 650 
 Wire Notes Line
 	7400 500  11200 500 
 Wire Notes Line
@@ -213,8 +192,6 @@ Wire Wire Line
 	9100 3200 9250 3200
 Wire Wire Line
 	9100 3200 9100 3450
-Wire Wire Line
-	8000 4550 8000 4600
 Wire Wire Line
 	8650 3850 8900 3850
 Wire Notes Line
@@ -453,7 +430,7 @@ Wire Wire Line
 Wire Wire Line
 	900  6250 1150 6250
 Wire Wire Line
-	800  7150 1150 7150
+	1150 7150 800  7150
 Wire Wire Line
 	1050 7350 1150 7350
 Wire Wire Line
@@ -536,6 +513,26 @@ Connection ~ 10650 5800
 Connection ~ 10200 5900
 Connection ~ 10200 6100
 Connection ~ 10200 6300
+Wire Wire Line
+	4450 4800 4800 4800
+Wire Wire Line
+	4450 5000 4800 5000
+Wire Wire Line
+	3800 4900 4150 4900
+Wire Wire Line
+	800  7150 800  7650
+Wire Wire Line
+	7700 2350 7500 2350
+Wire Wire Line
+	5150 650  5650 650 
+Text Label 10750 6700 0    60   ~ 0
+-9V
+Text Label 10300 6700 0    60   ~ 0
++9V
+Text Label 9800 6700 0    60   ~ 0
+vcc
+Text Label 9300 6700 0    60   ~ 0
+gnd
 $Comp
 L CONN_1 P46
 U 1 1 4EFA5A48
@@ -1030,7 +1027,7 @@ F 1 "10k" H 5150 1050 50  0000 C CNN
 	1    5150 1050
 	0    1    1    0   
 $EndComp
-Text Label 8650 2600 2    60   ~ 0
+Text Label 8450 2600 0    60   ~ 0
 gnd
 $Comp
 L C C18
@@ -1051,9 +1048,9 @@ Text Label 7950 1650 2    60   ~ 0
 pitch_bend
 Text Label 7950 1450 2    60   ~ 0
 portamento
-Text Label 7700 2350 2    60   ~ 0
+Text Label 7500 2350 0    60   ~ 0
 +9V
-Text Label 8200 2350 0    60   ~ 0
+Text Label 8400 2350 2    60   ~ 0
 -9V
 $Comp
 L POT RV_BIAS1
@@ -1234,7 +1231,7 @@ F 1 "2k2" V 9000 3700 50  0000 C CNN
 	1    9000 3700
 	0    1    1    0   
 $EndComp
-Text Label 8650 4650 3    60   ~ 0
+Text Label 8650 4800 3    60   ~ 0
 gnd
 $Comp
 L R R19
@@ -1257,7 +1254,7 @@ F 1 "82p" H 8950 3950 50  0000 L CNN
 $EndComp
 Text Label 7300 4050 2    60   ~ 0
 gnd
-Text Label 8000 4600 3    60   ~ 0
+Text Label 8000 4800 1    60   ~ 0
 -9V
 $Comp
 L DAC0808 U9
@@ -1618,7 +1615,7 @@ L C C16
 U 1 1 4E8ADDD2
 P 6400 5150
 F 0 "C16" H 6450 5250 50  0000 L CNN
-F 1 "22n" H 6450 5050 50  0000 L CNN
+F 1 "22p" H 6450 5050 50  0000 L CNN
 	1    6400 5150
 	0    1    1    0   
 $EndComp
@@ -1627,7 +1624,7 @@ L C C15
 U 1 1 4E8ADDBE
 P 6400 4800
 F 0 "C15" H 6450 4900 50  0000 L CNN
-F 1 "22n" H 6450 4700 50  0000 L CNN
+F 1 "22p" H 6450 4700 50  0000 L CNN
 	1    6400 4800
 	0    1    1    0   
 $EndComp
@@ -1636,7 +1633,7 @@ L CRYSTAL X1
 U 1 1 4E8ADD93
 P 5800 4950
 F 0 "X1" H 5800 5100 60  0000 C CNN
-F 1 "CRYSTAL" H 5800 4800 60  0000 C CNN
+F 1 "12MHz" H 5800 4800 60  0000 C CNN
 	1    5800 4950
 	0    1    1    0   
 $EndComp
@@ -1650,26 +1647,26 @@ Text Label 6500 3350 0    60   ~ 0
 sck
 Text Label 5800 2900 2    60   ~ 0
 vcc
-Text Label 4050 4800 2    60   ~ 0
+Text Label 3800 4800 2    60   ~ 0
 miso
-Text Label 4050 4900 2    60   ~ 0
+Text Label 3800 4900 2    60   ~ 0
 sck
-Text Label 4050 5000 2    60   ~ 0
+Text Label 3800 5000 2    60   ~ 0
 rst
-Text Label 4350 5000 0    60   ~ 0
+Text Label 4800 5000 0    60   ~ 0
 gnd
-Text Label 4350 4900 0    60   ~ 0
+Text Label 4800 4900 0    60   ~ 0
 mosi
-Text Label 4350 4800 0    60   ~ 0
+Text Label 4800 4800 0    60   ~ 0
 vcc
 $Comp
 L AVR-ISP-6 J1
 U 1 1 4E8ADCE3
-P 4200 4900
-F 0 "J1" H 4050 5150 50  0000 C CNN
-F 1 "AVR-ISP-6" H 3950 4625 50  0000 L BNN
-F 2 "AVR-ISP-6" V 3700 4900 50  0001 C CNN
-	1    4200 4900
+P 4300 4900
+F 0 "J1" H 4150 5150 50  0000 C CNN
+F 1 "AVR-ISP-6" H 4050 4625 50  0000 L BNN
+F 2 "AVR-ISP-6" V 3800 4900 50  0001 C CNN
+	1    4300 4900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
